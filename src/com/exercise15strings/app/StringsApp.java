@@ -1,5 +1,7 @@
 package com.exercise15strings.app;
 
+import com.exercise15strings.model.Tuneador;
+
 public class StringsApp {
 	
 	public int numero1;
@@ -50,7 +52,13 @@ public class StringsApp {
 		System.out.println(reversedString);
 		
 		
-		
+		String[] misCadenas = {cad1, cad2, cad3};
+		String[] misNuevasCadenas = Tuneador.tunea(misCadenas);
+		for(int i=0; i<misNuevasCadenas.length;i++)
+		{
+			System.out.println(misNuevasCadenas[i]);
+		}
+			
 		
 
 	}
