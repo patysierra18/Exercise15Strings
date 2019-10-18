@@ -59,6 +59,10 @@ public class StringsApp {
 			System.out.println(misNuevasCadenas[i]);
 		}
 			
+		int[] misEnteros= {5,7,2,3,5,8,1,5,6,7,9};
+		System.out.println("La media es:"+Tuneador.mediaVector(misEnteros));
+		
+		}
 		
 
 	}

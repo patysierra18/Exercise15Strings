@@ -18,4 +18,15 @@ public class Tuneador
 		
 		return cads;
 	}
+	
+	public static double mediaVector(int[] miArray)
+	{
+		int suma=0;
+		for(int i=0;i<miArray.length;i++)
+		{
+			suma=suma+miArray[i];
+		}
+		return suma/miArray.length;
+	}
+	
 }
